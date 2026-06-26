@@ -1,0 +1,67 @@
+/* Basic accessible color & sizing setup */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f4f4;
+  color: #1a1a1a;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+.page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #1b4d3e;
+  text-align: center;
+}
+
+video {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  background-color: #000;
+}
+
+.description {
+  font-size: 1.1rem;
+  margin-top: 1rem;
+}
+
+button {
+  display: block;
+  margin: 1.5rem auto 0;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  background-color: #1b4d3e;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover,
+button:focus {
+  background-color: #143a2e;
+  outline: 3px solid #ffcc00;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .description {
+    font-size: 1rem;
+  }
+
+  button {
+    width: 100%;
+  }
+}
